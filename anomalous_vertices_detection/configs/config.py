@@ -6,7 +6,7 @@ save_progress_interval = 20000
 import os
 cwd = os.getcwd()
 
-DATA_DIR = cwd+"\\runfromhere\\"
+DATA_DIR = cwd
 if not os.path.exists(DATA_DIR):
     os.mkdir(DATA_DIR)
 
